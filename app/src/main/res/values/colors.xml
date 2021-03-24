@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="smSkyColor">#4C7AD2</color>
+    <color name="smSecondary">#355694</color>
+    <color name="pmBlack">#000000</color>
+    <color name="pmSecondary">#BF000000</color>
+    <color name="mbGreen">#80D010</color>
+    <color name="mbSecondary">#689F38</color>
+    <color name="colorPrimarySnake">#a06dc4</color>
+    <color name="colorPrimaryDarkSnake">#704093</color>
+    <color name="colorPrimarySnakeLight">#F36C71</color>
+    <color name="colorPrimarySnakeLightWithAlpha">#B3EF3C43</color>
+    <color name="colorSecondarySnake">#b5001b</color>
+    <color name="colorSecondarySnakeWithAlpha">#B3B5001B</color>
+    <color name="colorSecondarySnakeLightWithAlpha">#B3DA5368</color>
+</resources>

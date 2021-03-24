@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ********************** -->
+    <!-- Inner Views Dimensions -->
+    <!-- ********************** -->
+
+    <!-- EditText -->
+    <dimen name="editTextDefaultTextSize">25sp</dimen>
+    <dimen name="editTextDefaultWidth">280dp</dimen>
+    <dimen name="editTextDefaultHeight">60dp</dimen>
+    <dimen name="editTextDefaultMarginTop">25dp</dimen>
+    <dimen name="editTextElevation">2dp</dimen>
+
+    <!-- Button -->
+    <dimen name="btnMainDefaultTextSize">30sp</dimen>
+    <dimen name="btnElevation">2dp</dimen>
+    <dimen name="btnDefaultTextSize">22sp</dimen>
+    <dimen name="btnSpecialTextSize">13sp</dimen>
+    <dimen name="btnStrokeWidth">7dp</dimen>
+    <dimen name="btnCornerRadius">50dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbarDefaultHeight">56dp</dimen>
+    <dimen name="toolbarElevation">4dp</dimen>
+    <dimen name="toolbarExpandedTextSize">34sp</dimen>
+    <dimen name="toolbarCollapsedTextSize">20sp</dimen>
+    <dimen name="toolbarDefaultTextSize">20sp</dimen>
+
+    <!-- TextView -->
+    <dimen name="textViewDefaultTextSize">20sp</dimen>
+    <dimen name="textViewSectionTitle">23sp</dimen>
+
+    <!-- ********************* -->
+    <!-- Game Views Dimensions -->
+    <!-- ********************* -->
+
+    <!---Dimension CannonApp -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <com.arcadan.arcasnake.snake.BackgroundView
+
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/cardview_shadow_start_color"
+      android:layout_marginTop="20dp"/>
+
+  <com.arcadan.arcasnake.snake.SnakeView
+      android:id="@+id/snake"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbarDefaultDelayBeforeFade="400"
+      app:tileSize="24dp"
+      android:background="@color/cardview_shadow_start_color"/>
+
+  <TextView
+      android:id="@+id/text"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+      android:fontFamily="@font/zrnic"
+      android:gravity="center"
+      android:textColor="@color/colorPrimaryDark"
+      android:textSize="40sp"
+      android:visibility="visible" />
+
+  <RelativeLayout android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <ImageView android:id="@+id/imageUp"
+    android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:padding="20dp"
+      android:src="@drawable/dpad_up" />
+
+    <ImageView android:id="@+id/imageLeft"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:padding="20dp"
+      android:src="@drawable/dpad_left" />
+
+    <ImageView android:id="@+id/imageRight"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_centerVertical="true"
+      android:padding="20dp"
+      android:src="@drawable/dpad_right" />
+
+    <ImageView android:id="@+id/imageDown"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:padding="20dp"
+      android:src="@drawable/dpad_down" />
+  </RelativeLayout>
+
+</merge>

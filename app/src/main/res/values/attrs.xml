@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="TileView">
+    <attr name="tileSize" format="dimension" />
+  </declare-styleable>
+  <declare-styleable name="BackgroundView">
+    <attr name="colorSegmentOne" format="color" />
+    <attr name="colorSegmentTwo" format="color" />
+    <attr name="colorSegmentThree" format="color" />
+    <attr name="colorSegmentFour" format="color" />
+  </declare-styleable>
+
+</resources>

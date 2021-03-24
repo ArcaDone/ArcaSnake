@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ArcaSnake</string>
+
+    <string name="strSnake">Snake</string>
+    <string name="strSnakeDescription">Turn around and catch that d**n pizza!</string>
+
+    <string name="mode_ready">Snake\nTouch Screen To Play</string>
+    <string name="mode_lose">Game Over Score: %1$d  \nTouch Screen To Play</string>
+    <string name="mode_pause">Paused: \nTouch Screen To Play</string>
+    <string name="snake_title">Snake</string>
+    <string name="desc_title">Desc</string>
+
+</resources>
